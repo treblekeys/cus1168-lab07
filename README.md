@@ -77,16 +77,31 @@ When running your program, it should produce output similar to:
 
 ```
 Testing addition without '+' operator:
-5 + 3 = 8
--2 + 7 = 5
-0 + 0 = 0
--5 + -3 = -8
-100 + 200 = 300
+5 + 3 = 8 (Correct)
+-2 + 7 = 5 (Correct)
+0 + 0 = 0 (Correct)
+-5 + -3 = -8 (Correct)
+100 + 200 = 300 (Correct)
+2147483647 + 1 = -2147483648 (Correct)
+-100 + 100 = 0 (Correct)
 
 Testing division without '/' operator:
-10 / 2 = 5
-15 / 3 = 5
-8 / 4 = 2
-7 / 2 = 3
-100 / 10 = 10
+10 / 2 = 5 (Correct)
+15 / 3 = 5 (Correct)
+8 / 4 = 2 (Correct)
+7 / 2 = 3 (Correct)
+100 / 10 = 10 (Correct)
+-15 / 3 = -5 (Correct)
+15 / -3 = -5 (Correct)
+0 / 5 = 0 (Correct)
+1024 / 2 = 512 (Correct)
+
+Testing subtraction without '-' operator:
+10 - 3 = 7 (Correct)
+5 - 8 = -3 (Correct)
+0 - 0 = 0 (Correct)
+-5 - -3 = -2 (Correct)
+100 - 50 = 50 (Correct)
+
+Process finished with exit code 0
 ```
