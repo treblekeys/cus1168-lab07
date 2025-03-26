@@ -47,7 +47,7 @@ to solving common programming tasks.
 #### Project Setup
 
 - Open the project in your IDE
-- Locate the starter code at: `src/main/java/academy/javapro/AlternativeArithmetic.java`
+- Locate the starter code at: `src/main/java/academy/javapro/lab7/AlternativeArithmetic.java`
 - Do not modify the package structure or class name
 - Implement the required functionality in the TODOs provided
 
